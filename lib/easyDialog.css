@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+#easyDialog_container{
+	display: none;
+	border: 5px solid #ccc;
+	border: 5px solid rgba(204, 204, 204, 0.8);
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background: #FFF;
+	min-height:100px;
+	min-width:200px;
+}
+#easyDialog_inner{
+	position: relative;
+	min-height: 120px;
+	padding: 1px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+#easyDialog_header{
+	height: 20px;
+	padding: 10px 15px;
+	background: #f7f7f7;
+	border-bottom: 1px solid #dedede;
+	overflow: hidden;
+}
+#easyDialog_header h3{
+	margin:0;
+	padding:0;
+	line-height:28px;
+	font-size: 14px;
+	float: left;
+	color: #55aadd;
+}
+#easyDialog_header #easyDialog_close{
+	position: absolute;
+	top: 12px;
+	right: 16px;
+	width: 16px;
+	height: 16px;
+	background: url(./close.png) no-repeat;
+	color: #999;
+	font: 11px "Comic Sans MS";
+}
+#easyDialog_header #easyDialog_close:hover{
+	color: #55aadd;
+	text-decoration: none;
+	background-position: 0 -16px;
+}

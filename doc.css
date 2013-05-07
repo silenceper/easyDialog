@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body,h1,h2,h3,h4,h5,h6{
+	font-family: "Trebuchet MS", sans-serif;
+	color: #1F1960;
+	line-height: 1.2em;
+}
+#container{
+	width: 700px;
+	margin: 0 auto;
+}
+#title{
+	margin-top: 50px;
+	text-align: center;
+}
+#title h1,#version{
+	display: inline;
+}
+.inner_content{
+	text-indent: 3em;
+	padding-top: 10px;
+}
+code{
+	border: 1px solid #eee;
+	font-family: 'Courier New', 'Terminal', monospace;
+	color: #222;
+	background-color: #f8f8f8;
+	padding: 1px;
+	line-height: 1.4em;
+	font-size: 17px;
+	display: block;
+	padding: 5px;
+	margin: 0 -5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 1px 1px 2px #ccc;
+	-webkit-box-shadow: 1px 1px 2px #ccc;
+	box-shadow: 1px 1px 2px #ccc;
+}
+ ul li{
+	margin-top: 10px;
+}
+#footer{
+	min-height: 100px;
+	margin:10px 0 10px 0 ;
+	text-align: center;
+}

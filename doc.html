@@ -1,0 +1,59 @@
+<html>
+<head>
+	<title>easyDialog - 一个简单的jquery弹出层插件！</title>
+	<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="doc.css"/>
+</head>
+	<body>
+		<div id="container">
+			<div id="title"><h1>easyDialog</h1><span id="version">&nbsp;1.0</span></div>
+			<div id="content">
+				<h3>说明：</h3>
+				<p class="inner_content">这个插件只是自己在做项目的时候需要用到弹出层，但是又苦于市面上的弹出层插件太杂功能又太多，我真正需要的也只是核心的几个部分而已，当然还有就是为了锻炼一下自己的能力，所以就写了这么一个插件easyDialog<i>(当我起这个名字的时候发现以及有人用了，并且也是弹出层)</i>，其实我主要是用来做弹出层登入框的！如果用得着的话，可以参考下！
+				</p>
+				<h3 style="margin-top:10px;">使用方法:</h3>
+				<p class="inner_content">
+					<ul>
+						<li>
+							加载jQuery库：<br/>
+							<code>&lt;script type="text/javascript" src="./jquery.min.js"&gt;&lt;/script&gt;
+							</code>
+						</li>
+						<li>
+							加载插件：<br/>
+							<code>&lt;script type="text/javascript" src="./easyDialog.min.js"&gt;&lt;/script&gt;
+							</code>
+						</li>
+						<li>
+							加载样式表：<br/>
+							<code>&lt;link rel="stylesheet" href="./easyDialog.css" type="text/css"&gt;
+							</code>
+						</li>
+						<li>
+							script调用：<br/>
+							<code><pre>
+$.easyDialog({
+	container :{
+			header:'登入',  //title名字
+			content:$('#login_box'), //需要弹出的内容
+		},
+	isOverlay:true,//是否遮罩
+	overlay:{
+			opacity:0.2, //遮罩的opacity
+		}
+});
+							</pre></code>
+						</li>
+						<li>
+							Demo：<a href="demo.html" target="blank">点击我</a>
+						</li>
+					</ul>
+				</p>
+			</div>
+		</div>
+		<div id="footer">
+			&copy; 2013 &nbsp;silenceper
+		</div>
+	</body>
+</head>
+</html>
