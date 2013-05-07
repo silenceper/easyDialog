@@ -1,55 +1,59 @@
-<!DOCTYPE html>
 <html>
-
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Easydialog : easyDialog 一个简单的弹出层！" />
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Easydialog</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/silenceper/easyDialog">View on GitHub</a>
-
-          <h1 id="project_title">Easydialog</h1>
-          <h2 id="project_tagline">easyDialog 一个简单的弹出层！</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/silenceper/easyDialog/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/silenceper/easyDialog/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>easyDialog - a simple jQuery plugin!</h1>
-
-<p>easyDialog 一个简单的jQuery弹出层插件！  <br><br>
-之所以它叫 "easyDialog" 应为它的确easy！<br>
-比不上其他强大的弹出层插件，但是基本功能已经具备！<br>
-应用案例：<a href="http://kandianying.la">看电影啦</a><br><a href="mailto:silenceper@gmail.com">silenceper@gmail.com</a>
-2013-05-07 </p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Easydialog maintained by <a href="https://github.com/silenceper">silenceper</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
+<head>
+	<title>easyDialog - 一个简单的jquery弹出层插件！</title>
+	<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="doc.css"/>
+</head>
+	<body><a href="https://github.com/silenceper/easyDialog"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_left_green_007200.png" alt="Fork me on GitHub"></a>
+		<div id="container">
+			<div id="title"><h1>easyDialog</h1><span id="version">&nbsp;1.0</span></div>
+			<div id="content">
+				<h3>说明：</h3>
+				<p class="inner_content">这个插件只是自己在做项目的时候需要用到弹出层，但是又苦于市面上的弹出层插件太杂功能又太多，我真正需要的也只是核心的几个部分而已，当然还有就是为了锻炼一下自己的能力，所以就写了这么一个插件easyDialog<i>(当我起这个名字的时候发现以及有人用了，并且也是弹出层)</i>，其实我主要是用来做弹出层登入框的！如果用得着的话，可以参考下！
+				</p>
+				<h3 style="margin-top:10px;">使用方法:</h3>
+				<p class="inner_content">
+					<ul>
+						<li>
+							加载jQuery库：<br/>
+							<code>&lt;script type="text/javascript" src="./jquery.min.js"&gt;&lt;/script&gt;
+							</code>
+						</li>
+						<li>
+							加载插件：<br/>
+							<code>&lt;script type="text/javascript" src="./easyDialog.min.js"&gt;&lt;/script&gt;
+							</code>
+						</li>
+						<li>
+							加载样式表：<br/>
+							<code>&lt;link rel="stylesheet" href="./easyDialog.css" type="text/css"&gt;
+							</code>
+						</li>
+						<li>
+							script调用：<br/>
+							<code><pre>
+$.easyDialog({
+	container :{
+			header:'登入',  //title名字
+			content:$('#login_box'), //需要弹出的内容
+		},
+	isOverlay:true,//是否遮罩
+	overlay:{
+			opacity:0.2, //遮罩的opacity
+		}
+});
+							</pre></code>
+						</li>
+						<li>
+							Demo：<a href="demo.html" target="blank">点击我</a>
+						</li>
+					</ul>
+				</p>
+			</div>
+		</div>
+		<div id="footer">
+			&copy; 2013 &nbsp;silenceper
+		</div>
+	</body>
+</head>
 </html>
