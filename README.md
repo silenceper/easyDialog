@@ -11,4 +11,4 @@ silenceper@gmail.com
 2013-05-07      
 
 ###效果
-![登入框](http://v2.freep.cn/3tb_1407141018146pks512293.png)
+![登入框](http://i.imgur.com/7Yc5KlG.png)
